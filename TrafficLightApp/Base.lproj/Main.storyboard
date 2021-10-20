@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzT-pY-ao7">
-                                <rect key="frame" x="132" y="279" width="150" height="150"/>
+                                <rect key="frame" x="132" y="274" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tb3-ER-nPy">
-                                <rect key="frame" x="132" y="475" width="150" height="150"/>
+                                <rect key="frame" x="132" y="469" width="150" height="150"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tb3-ER-nPy" secondAttribute="height" multiplier="1:1" id="Lk0-fN-fUT"/>
@@ -35,7 +35,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP8-la-MBa">
-                                <rect key="frame" x="98.5" y="660" width="217" height="60.5"/>
+                                <rect key="frame" x="98.5" y="654" width="217" height="60.5"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -53,12 +53,12 @@
                             <constraint firstItem="FzT-pY-ao7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="H8L-CU-DwT"/>
                             <constraint firstItem="yP8-la-MBa" firstAttribute="top" secondItem="tb3-ER-nPy" secondAttribute="bottom" constant="35" id="NXz-oM-Af2"/>
                             <constraint firstItem="FzT-pY-ao7" firstAttribute="leading" secondItem="tb3-ER-nPy" secondAttribute="leading" id="Pbz-DS-Rtd"/>
-                            <constraint firstItem="tb3-ER-nPy" firstAttribute="top" secondItem="FzT-pY-ao7" secondAttribute="bottom" constant="46" id="TMb-P1-0Xx"/>
+                            <constraint firstItem="tb3-ER-nPy" firstAttribute="top" secondItem="FzT-pY-ao7" secondAttribute="bottom" constant="45" id="TMb-P1-0Xx"/>
                             <constraint firstItem="fsN-tf-5Wz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="Vv8-5P-5W6"/>
                             <constraint firstItem="FzT-pY-ao7" firstAttribute="height" secondItem="tb3-ER-nPy" secondAttribute="height" id="bxY-5x-TEF"/>
                             <constraint firstItem="tb3-ER-nPy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="nGb-PB-Hyd"/>
                             <constraint firstItem="fsN-tf-5Wz" firstAttribute="height" secondItem="FzT-pY-ao7" secondAttribute="height" id="pSw-YD-RNj"/>
-                            <constraint firstItem="FzT-pY-ao7" firstAttribute="top" secondItem="fsN-tf-5Wz" secondAttribute="bottom" constant="50" id="qjA-qw-Bdc"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="top" secondItem="fsN-tf-5Wz" secondAttribute="bottom" constant="45" id="qjA-qw-Bdc"/>
                             <constraint firstItem="FzT-pY-ao7" firstAttribute="leading" secondItem="fsN-tf-5Wz" secondAttribute="leading" id="xca-Ha-ttn"/>
                             <constraint firstItem="FzT-pY-ao7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ywn-02-v9F"/>
                         </constraints>
