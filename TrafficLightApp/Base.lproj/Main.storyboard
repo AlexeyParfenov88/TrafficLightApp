@@ -37,6 +37,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP8-la-MBa">
                                 <rect key="frame" x="98.5" y="766.5" width="217" height="60.5"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60.5" id="crG-MU-Nmp"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="iVA-HJ-nfz"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start">
