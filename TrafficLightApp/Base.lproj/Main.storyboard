@@ -16,24 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsN-tf-5Wz">
-                                <rect key="frame" x="132" y="83" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FzT-pY-ao7">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzT-pY-ao7">
                                 <rect key="frame" x="132" y="279" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tb3-ER-nPy">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tb3-ER-nPy">
                                 <rect key="frame" x="132" y="475" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tb3-ER-nPy" secondAttribute="height" multiplier="1:1" id="Lk0-fN-fUT"/>
+                                </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP8-la-MBa">
-                                <rect key="frame" x="97" y="694" width="220" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsN-tf-5Wz">
+                                <rect key="frame" x="132" y="79" width="150" height="150"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fsN-tf-5Wz" secondAttribute="height" multiplier="1:1" id="oTs-O3-t6u"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yP8-la-MBa">
+                                <rect key="frame" x="98.5" y="660" width="217" height="60.5"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -44,6 +46,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yP8-la-MBa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98.5" id="0uh-Vh-Tqs"/>
+                            <constraint firstItem="fsN-tf-5Wz" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="5MN-D6-JVc"/>
+                            <constraint firstItem="yP8-la-MBa" firstAttribute="centerX" secondItem="tb3-ER-nPy" secondAttribute="centerX" id="826-nX-x8D"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="H8L-CU-DwT"/>
+                            <constraint firstItem="yP8-la-MBa" firstAttribute="top" secondItem="tb3-ER-nPy" secondAttribute="bottom" constant="35" id="NXz-oM-Af2"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="leading" secondItem="tb3-ER-nPy" secondAttribute="leading" id="Pbz-DS-Rtd"/>
+                            <constraint firstItem="tb3-ER-nPy" firstAttribute="top" secondItem="FzT-pY-ao7" secondAttribute="bottom" constant="46" id="TMb-P1-0Xx"/>
+                            <constraint firstItem="fsN-tf-5Wz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="Vv8-5P-5W6"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="height" secondItem="tb3-ER-nPy" secondAttribute="height" id="bxY-5x-TEF"/>
+                            <constraint firstItem="tb3-ER-nPy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="75:448" id="nGb-PB-Hyd"/>
+                            <constraint firstItem="fsN-tf-5Wz" firstAttribute="height" secondItem="FzT-pY-ao7" secondAttribute="height" id="pSw-YD-RNj"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="top" secondItem="fsN-tf-5Wz" secondAttribute="bottom" constant="50" id="qjA-qw-Bdc"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="leading" secondItem="fsN-tf-5Wz" secondAttribute="leading" id="xca-Ha-ttn"/>
+                            <constraint firstItem="FzT-pY-ao7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ywn-02-v9F"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
